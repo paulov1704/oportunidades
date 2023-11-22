@@ -1,0 +1,81 @@
+// Buttons
+.btn{
+    font-family: 'Inter', sans-serif;
+    font-display: swap;
+    font-size: 16px;
+    font-weight: $medium;
+    width: 100%;
+    min-height: 60px;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease; 
+
+    &:hover, &:focus, &:active {
+        color: white;
+        text-decoration: none;
+        box-shadow: none;
+    }
+
+}
+
+//Buttons Colors
+.btn-branco{
+    background-color: #FFFFFF;
+    color: #212121;
+    border-color:transparent;
+}
+
+.btn-dark{
+    background-color: #212121;
+    color: #FFFFFF;
+    border-color:transparent;
+}
+
+.btn-success{
+    background-color: #327E0A;
+    color: #FFFFFF;
+    border-color:transparent;
+}
+
+.btn-danger1{
+    background-color: #DF020F;
+    color: #FFFFFF;
+    border-color:transparent;
+}
+
+.btn-outline-danger1{
+    background-color: transparent;
+    color: #DF020F;
+    border-color:#DF020F;
+}
+
+//Buttons Sizes
+.btn-xxsm{
+    max-width: 150px;
+}
+
+.btn-xsm{
+    max-width: 175px;
+    min-height: 50px !important;
+}
+
+.btn-sm{
+    max-width: 200px;
+}
+
+.btn-md{
+    max-width: 225px;
+}
+
+.btn-lg{
+    max-width: 250px;
+}
+
+.btn-xlg{
+    max-width: 305px;
+}
+
+.btn-xxlg{
+    max-width: 350px;
+    min-height: 55px !important;
+}

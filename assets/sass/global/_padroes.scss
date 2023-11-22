@@ -1,0 +1,194 @@
+//Configurações Gerais
+html,body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+//Espaçamento Seção
+section{
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+//Tamanho Container
+.container{
+    max-width: 1100px;
+    width: 100%;
+}
+
+//Cores
+$preto: #000000;
+$branco: #ffffff;
+$dark: #333333;
+$light2: #F7F9FA;
+$light3:#F9F8F7;
+$light4: #F2F4F5;
+$secondary: #EBEBEB;
+$danger1:#DF020F;
+$danger2:#861011;
+$warning:#DF4E02;
+$sucess: #358617;
+$primary:#0270DF;
+
+
+
+// Classes de Cores
+.preto {color: $preto !important;}
+.branco{color: $branco !important;}
+.dark {color: $dark !important;}
+.light2 {color: $light2 !important;}
+.light3 {color: $light3 !important;}
+.light4 {color: $light4 !important;}
+.secondary {color: $secondary !important;}
+.danger1 {color: $danger1 !important;}
+.danger2 {color: $danger2 !important;}
+.warning {color: $warning !important;}
+.sucess {color: $sucess !important;}
+.primary {color: $primary !important;}
+
+
+//BackGround Cores
+.bg-branco {background-color: $branco;}
+.bg-light2 {background-color: $light2;}
+.bg-light3 {background-color: $light3;}
+.bg-light4 {background-color: $light4;}
+.bg-secondary {background-color: $secondary;}
+.bg-dark {background-color: $dark;}
+.bg-danger1 {background-color: $danger1;}
+.bg-danger2 {background-color: $danger2;}
+.bg-warning {background-color: $warning;}
+.bg-sucess {background-color: $sucess;}
+.bg-primary {background-color: $primary;}
+
+//Pesos Fontes
+$light: 300;
+$regular: 400;
+$medium: 500;
+$bold: 700;
+
+//Classes Pesos Fontes
+.light{font-weight: 300;}
+.regular{font-weight: 400;}
+.medium{font-weight: 500;}
+.bold{font-weight: 700;}
+
+//Títulos
+h1,.h1{
+font-size: 48px;
+font-weight: $bold
+}
+
+h2 .h2{
+font-size: 32px;
+font-weight: $regular;
+}
+
+h3, .h3{
+font-size: 24px;
+font-weight: $bold;
+}
+
+// Tamanhos de Fontes
+.fs-14 {font-size: 14px;}
+.fs-15 {font-size: 15px;}
+.fs-16 {font-size: 16px;}
+.fs-18 {font-size: 18px;}
+.fs-20 {font-size: 20px;}
+.fs-24 {font-size: 24px;}
+.fs-32 {font-size: 32px;}
+.fs-48 {font-size: 48px;}
+
+//Max Width
+.mxw-50{
+    max-width: 50px;
+}
+.mxw-100{
+    max-width: 100px;
+}
+.mxw-150{
+    max-width: 150px;
+}
+.mxw-200{
+    max-width: 200px;
+}
+.mxw-250{
+    max-width: 250px;
+}
+.mxw-300{
+    max-width: 300px;
+}
+.mxw-350{
+    max-width: 350px;
+}
+.mxw-400{
+    max-width: 400px;
+}
+.mxw-450{
+    max-width: 450px;
+}
+.mxw-500{
+    max-width: 500px;
+}
+.mxw-550{
+    max-width: 550px;
+}
+.mxw-600{
+    max-width: 600px;
+}
+.mxw-650{
+    max-width: 650px;
+}
+.mxw-700{
+    max-width: 700px;
+}
+.mxw-750{
+    max-width: 750px;
+}
+.mxw-800{
+    max-width: 800px;
+}
+.mxw-850{
+    max-width: 850px;
+}
+.mxw-900{
+    max-width: 900px;
+}
+.mxw-950{
+    max-width: 950px;
+}
+
+//Media Querry
+@media (max-width: 991px){
+    h1,.h1{
+        font-size: 44px;
+        }
+        h2 .h2{
+        font-size: 28px;
+        }
+        h3, .h3{
+        font-size: 20px;
+        }
+}
+
+@media (max-width: 767px){
+    h1,.h1{
+        font-size: 40px;
+        }
+        h2 .h2{
+        font-size: 24px;
+        }
+        h3, .h3{
+        font-size: 18px;
+        }
+}
+
+@media (max-width: 575px){
+    h1,.h1{
+        font-size: 36px;
+        }
+        h2 .h2{
+        font-size: 20px;
+        }
+}
