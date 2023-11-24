@@ -31,84 +31,9 @@
     cursor: pointer;
 }
 
-
 .area-corretor-treinamentos{
     width: 178px;
     height: 16px;
     background-color: blueviolet;
 }
 
-
-
-/* TAMANHO DAS FONTES
- */
-
- .fs-14 {font-size: 14px;}
- .fs-15 {font-size: 15px;}
- .fs-16 {font-size: 16px;}
- .fs-18 {font-size: 18px;}
- .fs-20 {font-size: 20px;}
- .fs-24 {font-size: 24px;}
- .fs-32 {font-size: 32px;}
- .fs-48 {font-size: 48px;}
- 
-
- /* Max Width */
- .mxw-50{
-     max-width: 50px;
- }
- .mxw-100{
-     max-width: 100px;
- }
- .mxw-150{
-     max-width: 150px;
- }
- .mxw-200{
-     max-width: 200px;
- }
- .mxw-250{
-     max-width: 250px;
- }
- .mxw-300{
-     max-width: 300px;
- }
- .mxw-350{
-     max-width: 350px;
- }
- .mxw-400{
-     max-width: 400px;
- }
- .mxw-450{
-     max-width: 450px;
- }
- .mxw-500{
-     max-width: 500px;
- }
- .mxw-550{
-     max-width: 550px;
- }
- .mxw-600{
-     max-width: 600px;
- }
- .mxw-650{
-     max-width: 650px;
- }
- .mxw-700{
-     max-width: 700px;
- }
- .mxw-750{
-     max-width: 750px;
- }
- .mxw-800{
-     max-width: 800px;
- }
- .mxw-850{
-     max-width: 850px;
- }
- .mxw-900{
-     max-width: 900px;
- }
- .mxw-950{
-     max-width: 950px;
- }
- 
